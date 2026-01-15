@@ -4,8 +4,18 @@ const apiRoutes = require('./routes/index.js');
 
 const app = express();
 
+// CORS (GitHub Pages + local)
+app.use(cors({
+  origin: [
+    "http://localhost:5173",
+    "http://localhost:3000",
+    "https://gabibrutti.github.io",
+  ],
+  methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization"],
+}));
+
 // Middleware
-app.use(cors());
 app.use(express.json());
 
 // Health check
