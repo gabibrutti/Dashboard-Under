@@ -1,0 +1,37 @@
+# Dependencias
+node_modules/
+
+# Build
+dist/
+build/
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Cache
+.cache/
+.vite/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporarios
+*.tmp
+*.temp
+client/node_modules/
+server/node_modules/
+client/dist/
+server/.env
