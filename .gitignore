@@ -35,3 +35,7 @@ client/node_modules/
 server/node_modules/
 client/dist/
 server/.env
+
+# local maintenance artifacts
+_backup_before_flatten_*/
+cleanup_dashboard_under.sh

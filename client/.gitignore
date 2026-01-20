@@ -1,6 +1,0 @@
-
-# TypeScript incremental build
-*.tsbuildinfo
-
-# Vite generated typings (if any)
-client/vite.config.d.ts
